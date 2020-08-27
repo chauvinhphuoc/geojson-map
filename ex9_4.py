@@ -22,8 +22,8 @@ def main():
 
         feartures.append(my_fearture)
 
-        with open("pymi_bar.geojson", "w") as f:
-            f.write(json.dumps(FeatureCollection(feartures)))
+    with open("pymi_bar.geojson", "w") as f:
+        f.write(json.dumps(FeatureCollection(feartures)))
 
 
 if __name__ == "__main__":
