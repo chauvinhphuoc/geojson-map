@@ -1,6 +1,6 @@
 import requests
 import os
-from geojson import Feature, Point, FeatureCollection, dumps
+from geojson import Feature, Point, FeatureCollection
 import json
 
 
